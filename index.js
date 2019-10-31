@@ -166,11 +166,3 @@ const alertFunction = () => {
   }
 
 }
-
-
-
-const testButtonFunction = () => {
-
-  console.log('only the test function');
-
-}
