@@ -10,14 +10,12 @@ console.log(window.URL);
 const stopBtn = document.getElementById('stop');
 const pauseButton = document.getElementById('pause');
 const recordButton = document.getElementById('record');
-const testButton = document.getElementById('test');
 
 
 //ADD EVENT LISTENERS
 stopBtn.addEventListener('click', () => stopRecording())
 pauseButton.addEventListener('click', () => pauseRecording())
 recordButton.addEventListener('click', () => pressedRecord())
-testButton.addEventListener('click', () => testButtonFunction())
 
 stopBtn.disabled = true;
 pauseButton.disabled = true;
