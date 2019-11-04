@@ -30,3 +30,8 @@
    margin-top: 200px;
 
  }
+
+ ol li {
+   list-style: none;
+
+ }
